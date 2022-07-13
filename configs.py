@@ -14,7 +14,7 @@ def initialize_task_settings(args,task):
         raise Exception('Task is not implemented.') 
 
     for name, value in task_params._asdict().items():
-    	args[name] = value
+        args[name] = value
 
 
     # args['task_name'] = task_params.task_name
